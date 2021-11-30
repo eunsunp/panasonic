@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto-sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-l {
+    font-weight: 200;
+}
+
+.font-r {
+    font-weight: 400;
+}
+
+.font-b {
+    font-weight: 600;
+}
+
+.header-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.new-text {
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 0;
+    letter-spacing: 5px;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 370px;
+    height: 4px;
+    background: #003fc5;
+    margin: 10px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header-content h2 {
+    font-size: 2rem;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #003fc5;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 130px;
+    color: whitesmoke;
+    z-index: 99;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link li {
+    margin: 0 30px;
+    list-style: none;
+}
+
+.active {
+    color: #003fc5;
+    font-weight: bold;
+}
+
+.read-more {
+    padding: 15px 100px;
+    background: #003fc5;
+    color: whitesmoke;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.swiper-wrapper {
+    position: relative;
+}
+
+.bg-text {
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    text-align: center;
+}
+
+.view-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.view-more {
+    padding: 15px 50px;
+    background: #003fc5;
+    color: whitesmoke;
+    border-radius: 30px;
+    margin: 10px 10px 0 0;
+    font-size: 0.8rem;
+}
+
+.view-more02 {
+    padding: 15px 40px;
+    border: 2px solid #003fc5;
+    color: #003fc5;
+    border-radius: 30px;
+    margin: 10px 10px 0 0;
+    font-size: 0.8rem;
+}
+
+.bg-text h2 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.bg-text h1 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.bg-02-text {
+    font-size: 2.4rem;
+    color: #373737;
+    font-weight: 600;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    transition-duration: 0ms;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: rgb(238, 238, 238);
+    padding: 24px;
+    color: #003fc5;
+    opacity: 0.4;
+}
+
+.swiper-button-prev {
+    left: 16%;
+    top: 65%;
+}
+
+.swiper-button-next {
+    left: 19%;
+    top: 65%;
+}
+
+.swiper-button-prev:after {
+    content: 'prev';
+    font-size: 20px;
+}
+
+.swiper-button-next:after {
+    content: 'next';
+    font-size: 20px;
+}
+
+.main .section {
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.intro-title {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.title-line {
+    width: 10%;
+    margin: 0 auto;
+    height: 3px;
+    color: #003fc5;
+    text-align: center;
+}
+
+.int-01 {
+    color: #003fc5;
+    font-size: 2.2rem;
+}
+
+.int-02 {
+    /* transform: translateY(1120px); */
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    padding-top: 10px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+.slide-img {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.box-txt {
+    position: absolute;
+    top: 18%;
+    left: 70%;
+    line-height: 2;
+}
+
+.product-name {
+    color: #003fc5;
+    font-weight: 600;
+    font-size: 2.2rem;
+
+}
+
+.box-txt .txt {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.box-txt .sub-txt {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.btns {
+    position: absolute;
+    bottom: 35%;
+    right: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.btns .btn-underline {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.btns .btn-type2 {
+    background-color: #003fc5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
