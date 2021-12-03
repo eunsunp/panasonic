@@ -110,6 +110,8 @@ nav.animate {
 .navbar-link {
     display: flex;
     align-items: center;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .navbar-link li {
@@ -308,7 +310,7 @@ nav.animate {
 .box-txt .txt {
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.3;
+    line-height: 1.4;
 }
 
 .box-txt .sub-txt {
@@ -565,11 +567,10 @@ nav.animate {
 .int-tit {
     font-size: 2rem;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .sub_tit, #m-sec06 .about-txt .sub_txt {
     color: #fff;
-    line-height: 1.8;
 }
 
 .sub_tit {
@@ -578,6 +579,7 @@ nav.animate {
 
 .sub_txt {
     margin-top: 10px;
+    line-height: 1.7;
 }
 
 #m-sec06 .more_btn {
