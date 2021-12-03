@@ -91,6 +91,10 @@ a {
     position: fixed;
 }
 
+.logo {
+    width: 7%;
+}
+
 nav {
     transition: .5s;
 }
