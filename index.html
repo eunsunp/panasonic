@@ -14,8 +14,9 @@
         <nav class="navbar">
             <div class="logo"><img src="assets/images/logo-panasonic.svg" alt=""></div>
             <ul class="navbar-link">
-                <li class="active"><a href="#">Consumer</a></li>
+                <li class="active"><a href="#">Product</a></li>
                 <li><a href="#">Business</a></li>
+                <li><a href="#">New collection</a></li>
                 <li><a href="#">About us</a></li>
                 <li class="ctn"><a href="#">Contact</a></li>
             </ul>
@@ -24,7 +25,7 @@
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide bg">
                   <img src="assets/images/main-bg-04.jpg" alt="">
               </div>
               <div class="bg-text">
@@ -36,19 +37,25 @@
                   <a href="#" class="view-more02">구매 혜택 보기</a>
               </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide bg">
                 <img src="assets/images/main-bg-02.jpg" alt="">
-                <div class="bg-text">
-                    <span class="bg-02-text">건강한 치아와 잇몸을 위한<br/>구강케어 솔루션</span>
+                <div class="bg-text-02">
+                    <h3 class="bg-sub-text">건강한 치아와 잇몸을 위한<br/>구강케어 솔루션</h3>
                   <div class="view-btn">
                       <a href="#" class="view-more">더 알아보기</a>
-                      <a href="#" class="view-more02">구매 혜택 보기</a>
+  
                   </div>
                   </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide bg">
                 <img src="assets/images/main-bg-01.jpg" alt="">
-                
+                <div class="bg-text-02">
+                    <h3 class="bg-sub-text-03">일상 브이로그도<br/>영화처럼</h3>
+                  <div class="view-btn">
+                      <a href="#" class="view-more">더 알아보기</a>
+    
+                  </div>
+                </div>
               </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -56,14 +63,15 @@
           </div>
           
     <section class="intro-product">
-        <div class="intro-title">
+        <div class="intro-title" data-aos="fade-down" 
+        data-aos-duration="1500">
             <h1 class="int-01">PRODUCT</h1>
             <div class="title-line"></div>
             <h2 class="int-02">A better life, A better wolrd with Panasonoic</h2>
         </div>
             <!-- Swiper -->
     <div class="swiper mySwiper-02">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper prod-wrapper">
           <div class="swiper-slide product">
               <div class="slide-img">
                   <img src="assets/images/prod-01.png" alt="">
@@ -124,7 +132,7 @@
             </div>
             <div class="box-txt">
                 <h1 class="product-name">Health</h1>
-                <p class="txt">빠짐없이 전신 마사지가<br/>가능한 한마의자</p>
+                <p class="txt">빠짐없이 마사지가<br/>가능한 안마의자</p>
                 <span class="sub-txt">EP-MAF1</span>
             </div>
             <div class="btns">
@@ -157,15 +165,237 @@
         </div>
         <div class="swiper-scrollbar"></div>
       </div>
-  
       <!-- Swiper JS -->
     </section>
 
-    <section class="brand-story">
-        <div class="intro-title">
-            <h1 class="int-01">STORY</h1>
+    <section class="sec_balance">
+            <div class="intro-title" data-aos="fade-down" 
+            data-aos-duration="1500">
+                <h1 class="int-01">BUSINESS</h1>
+                <div class="title-line"></div>
+                <h2 class="int-02">System Business with Panasonoic</h2>
+            </div>
+            <div class="balance_wrap">
+                <div class="balance_area">
+                    <div class="balance_box">
+                        <a href="#" class="square brand">
+                            <div class="square_inner" style="visibility: inherit; opacity: 1;
+                            height: 550px;">
+                                <img src="assets/images/business-img.jpeg" alt="">
+                                <div class="txt-box">
+                                    <h3 class="tit">AK-UC4000<br/>영상촬영의 하이엔드 시스템 카메라</h3>
+                                    <span class="more-view">view-more</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="square premium" style="transform: matrix(1, 0, 0, 1, 0, 30);">
+                            <div class="square_inner" style="visibility: inherit; opacity: 1;
+                            height: 550px;">
+                                <img src="assets/images/business-img-02.jpeg" alt="">
+                                <div class="txt-box">
+                                    <h3 class="tit">PT-RS30K<br/>무대/공연장에서 적합한 31,000lm 밝기</h3>
+                                    <span class="more-view">view-more</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section class="sales-product">
+        <div class="intro-title" data-aos="fade-down" 
+        data-aos-duration="1500">
+            <h1 class="int-01">NEW COLLECTION</h1>
             <div class="title-line"></div>
-            <h2 class="int-02">A better life, A better wolrd with Panasonoic</h2>
+            <h2 class="int-02">You can check out Panasonic's new products.</h2>
+        </div>
+        <div class="infinite-scroll-component__outerdiv">
+            <div class="infinite-scroll-component product__list">
+                <div class="new-product">
+                    <span class="badge__text">NEW</span>
+                    <div class="product__pic" data-aos="fade-up"
+                    data-aos-duration="500">
+                        <a href="#" class="product__pic__link">
+                            <img src="assets/images/lumix-img-01.png" alt="">
+                        </a>
+                        <a href="#" class="product__title">DC-S5GD-K
+                        </a>
+                        <a href="#" class="product__info">1인당 1대만 구매가 가능합니다. 2대 이상 주문 시 취소됩니다.</a>
+                        <div class="product__price">
+                            <span class="sale">2,330,000원</span>
+                        </div>
+                        <a href="#" class="new-p-btn">View more</a>
+                    </div>
+                </div>
+                <div class="new-product">
+                    <span class="badge__text">NEW</span>
+                    <div class="product__pic" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <a href="#" class="product__pic__link">
+                            <img src="assets/images/lumix-img-02.png" alt="">
+                        </a>
+                        <a href="#" class="product__title">DC-S5KGD-K</a>
+                        <a href="#" class="product__info">1인당 1대만 구매가 가능합니다. 2대 이상 주문 시 취소됩니다.</a>
+                        <div class="product__price">
+                            <span class="sale">2,750,000원</span>
+                        </div>
+                        <a href="#" class="new-p-btn">View more</a>
+                    </div>
+                </div>
+                <div class="new-product">
+                    <span class="badge__text">HOT</span>
+                    <div class="product__pic" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <a href="#" class="product__pic__link">
+                            <img src="assets/images/lumix-img-03.png" alt="">
+                        </a>
+                        <a href="#" class="product__title">DC-GX9GD (바디킷-실버)</a>
+                        <a href="#" class="product__info">1인당 1대만 구매가 가능합니다. 2대 이상 주문 시 취소됩니다.</a>
+                        <div class="product__price">
+                            <span class="sale">1,850,000원</span>
+                        </div>
+                        <a href="#" class="new-p-btn">View more</a>
+                    </div>
+                </div>
+                <div class="new-product">
+                    <span class="badge__text">NEW</span>
+                    <div class="product__pic" data-aos="fade-up"
+                    data-aos-duration="2000">
+                        <a href="#" class="product__pic__link">
+                            <img src="assets/images/lumix-img-04.png" alt="">
+                        </a>
+                        <a href="#" class="product__title">DC-GF10KGD(블랙)</a>
+                        <a href="#" class="product__info">1인당 1대만 구매가 가능합니다. 2대 이상 주문 시 취소됩니다.</a>
+                        <div class="product__price">
+                            <span class="sale">2,150,000원</span>
+                        </div>
+                        <a href="#" class="new-p-btn">View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="m-sec06" class="m-sec06" style="background: url('assets/images/about-us-img.jpeg') center center / cover no-repeat; background-attachment: fixed;"
+>
+        <div class="inner_box on">
+            <div class="about-txt">
+                <div class="img-ani bottom-top img-aniload" data-aos="fade-up"
+                data-aos-duration="1500">
+                    <dl>
+                        <h1 class="int-tit">ABOUT US</h1>
+                        <dt class="sub_tit">지속가능 경영</dt>
+                        <dd class="sub_txt">
+                            사회적 책임을 다하는 전문 기업이 되기 위해
+                            <br/>
+                            소비자 중심의 품질/환경/윤리 경영을 준수하며
+                            <br/>
+                            사회공헌 활동에도 적극적으로 참여하고 있습니다.
+                        </dd>
+                    </dl>
+                    <a href="#" class="more_btn btn_w">더보기+</a>
+                </div>
+            </div>
+            <div class="circle_bg"></div>
+        </div>
+    </section>
+    <section class="sec sec_service">
+        <div class="service_wrap">
+            <div class="service_area magazine_wrap" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                <div class="tit_wrap">
+                <h3 class="tit" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                    MAGAZINE
+                </h3>
+                </div>
+                <a href="#" class="banner">
+                    <div class="inner" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <img src="assets/images/magazine-img.jpeg" alt="">
+                        <div class="ser-txt_box">
+                            <p class="ser-txt">THE PANASONIC STORY</p>
+                            <h4 class="tit">매거진을 통해 만나는 <br/>파나소닉의 다양한 이야기</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="more">
+                    자세히 보기
+                </a>
+            </div>
+            <div class="service_area news_wrap" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                <div class="tit_wrap">
+                    <h3 class="tit" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">NEWS</h3>
+                </div>
+            <div class="news_list">
+                <ul class="list" data-aos="fade-up"
+                data-aos-duration="2000">
+                    <li>
+                        <a href="#">
+                            <p class="tit">파나소닉 브랜드 리뉴얼 후 전세계서 흥행 잇따라</p>
+                            <p class="date" style="font-size: 28px;">02</p>
+                            <p class="date">Dec</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="tit">박스형 풀프레임 미러리스 라이브&시네마 카메라 BS1H 출시</p>
+                            <p class="date" style="font-size: 28px;">18</p>
+                            <p class="date">Nov</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="tit">L-마운트 24mm F1.8 단초점렌즈 S-S24 출시</p>
+                            <p class="date" style="font-size: 28px;">21</p>
+                            <p class="date">Oct</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="tit">파나소닉 안마의자, 렌탈서비스 개시</p>
+                            <p class="date" style="font-size: 28px;">09</p>
+                            <p class="date">Sep</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="more">
+                    자세히 보기
+                </a>
+            </div>
+            </div>
+        </div>
+    </section>
+        <div class="socialpanel">
+            <button type="button" onclick="location.href ='https://ko-kr.facebook.com/panasonickorea/'">
+                <img src="assets/images/sns1.png" alt="">
+            </button>
+            <button type="button" onclick="location.href ='https://www.instagram.com/panasonic.kr/?hl=ko'">
+                <img src="assets/images/sns2.png" alt="">
+            </button>
+            <button type="button" onclick="location.href ='https://www.youtube.com/user/ideasforlifePKL'">
+                <img src="assets/images/sns3.png" alt="">
+            </button>
+        </div>
+    <section class="footer">
+        <div class="footer">
+            <div class="footer-inner">
+                <address>
+                    COPYRIGHT 2016 Panasonic Korea Co., Ltd. All Rights Reserved
+                    <br/>
+                    파나소닉코리아(주) ㅣ Panasonic 대표이사 : 쿠라마타카시 ㅣ 주소 : 서울시 서초구 서초대로 254 오퓨런스 빌딩 17층
+                    <br>
+                    전화 : 02-533-8452
+                </address>
+                <div class="footMenu">
+                    <a href="#">사이트맵</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">Global Home</a>
+                    <a href="#">파나소닉 디바이스 세일즈 코리아(주)</a>
+                    <a href="#">파나소닉 ES 신동아</a>
+                </div>
+            </div>
         </div>
     </section>
  
@@ -173,6 +403,8 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
